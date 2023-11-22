@@ -4,7 +4,8 @@
 <div class="container d-flex flex-column justify-content-center align-items-center">
 
     <div class="addInput m-5">
-        <input type="text">
+        <input class="inputAdd" type="text" [(ngModel)]="newTaskTitle"/>&nbsp;
+        <button class="btn btn-primary" (click)="addNewTask()">Add Item</button>
     </div>
     <div class="box py-5">
     
